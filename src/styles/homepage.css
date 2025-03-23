@@ -1,0 +1,213 @@
+.homepageContent{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: #F7EEE9;
+    padding: 16px 0px;
+    gap: 4px;
+}
+
+.notificationBanner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0065A1;
+    color:white;
+    padding: 8px 16px;
+    height: max-content;
+     border-radius: 80px;
+}
+.CTA_letsGo{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.notificationBanner_left{
+display: flex;
+gap: 8px;
+ padding-left: 16px;
+ cursor: pointer;
+}
+
+.notificationBanner_right{
+ display: flex;
+ align-items: center;
+ padding-right: 16px;
+ cursor: pointer;
+}
+
+.heroSection{
+    display: flex;
+}
+
+.heroSection_left{
+    display: flex ;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+    gap: 16px;
+    padding: 48px 24px;
+}
+
+.heroSection_right{
+    display: flex ;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    justify-content: center
+}
+
+.heroSection_left .heading{
+font-size: 48px;
+font-weight: 700;
+line-height: 55px;
+
+}
+.CTA_buttons{
+    display: flex;
+    gap: 12px;
+    padding: 12px 0px;
+    
+}
+.headingDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.signupWithGoogleBtn{
+    display: flex;
+    align-items: center;
+    background-color: #2D84F1;
+    border-radius: 4px;
+  
+}
+
+.googleIconDiv{
+    display: flex ;
+    padding: 10px;
+    border-radius: 2px;
+    align-items: center;
+    background-color: white;
+}
+.googleText{
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.reversed{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px 0px;
+}
+
+.reversed .heading{
+    font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+
+}
+
+.cookie-banner {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    border: 1px solid #ddd;
+
+  }
+
+  .withExtraPadding{
+    padding: 16px 32px;
+}
+  .cookie-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .cookie-content p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .more-info {
+    color: #0073e6;
+    text-decoration: underline;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+  
+  .accept-btn {
+    width: 100%;
+    background: #6a1b9a;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accept-btn:hover {
+    background: #4a148c;
+  }
+  
+  .containerBtn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    gap: 8px;
+  }
+  .chat-popup {
+     
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .hand-icon {
+    color: #ffcc00;
+  }
+  
+  .chat-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .chat-close:hover {
+    color: #000;
+  }
+  

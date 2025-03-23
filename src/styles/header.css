@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    height: 54px;
+    width: 100%;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+}
+.headerTitle{
+    font-weight: 700;
+    color: #E57601;
+}
+
+.headerIcons{
+    display: flex;
+    gap: 8px;
+
+}
